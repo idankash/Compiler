@@ -1,0 +1,17 @@
+﻿Build started 23/07/2019 14:31:10.
+     1>Project "E:\עבודות הגשה מדעי המחשב\תורת הקומפילציה\Project\Compilation\Compilation\Compilation\Compilation\Compilation.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\Compilation.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+       Link:
+         All outputs are up-to-date.
+         Compilation.vcxproj -> E:\עבודות הגשה מדעי המחשב\תורת הקומפילציה\Project\Compilation\Compilation\Compilation\Debug\Compilation.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\Compilation.unsuccessfulbuild".
+         Touching "Debug\Compilation.lastbuildstate".
+     1>Done Building Project "E:\עבודות הגשה מדעי המחשב\תורת הקומפילציה\Project\Compilation\Compilation\Compilation\Compilation\Compilation.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.04

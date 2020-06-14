@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{A11280E3-06EB-4639-8145-4377A881D263}</ProjectGuid>
+    <RootNamespace>Compilation</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="BB.C" />
+    <ClCompile Include="Block.c" />
+    <ClCompile Include="Expression.c" />
+    <ClCompile Include="Expression1.c" />
+    <ClCompile Include="FB.c" />
+    <ClCompile Include="Func_definition.c" />
+    <ClCompile Include="Func_definitions.c" />
+    <ClCompile Include="Func_definitions1.c" />
+    <ClCompile Include="Parameters_list.c" />
+    <ClCompile Include="Param_definitions.c" />
+    <ClCompile Include="Parser.c" />
+    <ClCompile Include="Program.c" />
+    <ClCompile Include="Returned_type.c" />
+    <ClCompile Include="Statement.c" />
+    <ClCompile Include="Statement1.c" />
+    <ClCompile Include="Statement2.c" />
+    <ClCompile Include="Statements.c" />
+    <ClCompile Include="Statements1.c" />
+    <ClCompile Include="Token.c" />
+    <ClCompile Include="Type.c" />
+    <ClCompile Include="Variable.c" />
+    <ClCompile Include="Variable1.c" />
+    <ClCompile Include="Variables_list.c" />
+    <ClCompile Include="Variables_list1.c" />
+    <ClCompile Include="Var_definition.c" />
+    <ClCompile Include="Var_definitions.c" />
+    <ClCompile Include="Var_definitions1.c" />
+    <ClCompile Include="win.lex.yy.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BB.h" />
+    <ClInclude Include="Block.h" />
+    <ClInclude Include="Expression.h" />
+    <ClInclude Include="Expression1.h" />
+    <ClInclude Include="FB.h" />
+    <ClInclude Include="Func_definition.h" />
+    <ClInclude Include="Func_definitions.h" />
+    <ClInclude Include="Func_definitions1.h" />
+    <ClInclude Include="Parameters_list.h" />
+    <ClInclude Include="Param_definitions.h" />
+    <ClInclude Include="Parser.h" />
+    <ClInclude Include="Program.h" />
+    <ClInclude Include="Returned_type.h" />
+    <ClInclude Include="Statement.h" />
+    <ClInclude Include="Statement1.h" />
+    <ClInclude Include="Statement2.h" />
+    <ClInclude Include="Statements.h" />
+    <ClInclude Include="Statements1.h" />
+    <ClInclude Include="Token.h" />
+    <ClInclude Include="Type.h" />
+    <ClInclude Include="Variable.h" />
+    <ClInclude Include="Variable1.h" />
+    <ClInclude Include="Variables_list.h" />
+    <ClInclude Include="Variables_list1.h" />
+    <ClInclude Include="Var_definition.h" />
+    <ClInclude Include="Var_definitions.h" />
+    <ClInclude Include="Var_definitions1.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="information.txt" />
+    <None Include="my_definitions.lex" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
